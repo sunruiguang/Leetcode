@@ -1,5 +1,7 @@
 package com.srg.code;
 
+import com.srg.pubclass.ListNode;
+
 public class AddTwoNumbers {
     public static void main(String[] args) {
         ListNode l1 = new ListNode(2);
@@ -36,15 +38,6 @@ public class AddTwoNumbers {
             curr.next = new ListNode(carry);
         }
         return dummyHead.next;
-
     }
 }
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-}

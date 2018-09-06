@@ -4,43 +4,38 @@ import java.util.Arrays;
 
 public class NextPermutation {
     public static void main(String[] args) {
-        int[] nums = {1, 1, 5};
+        int[] nums = {9, 8, 2, 7, 6};
         nextPermutation(nums);
         System.out.println(Arrays.toString(nums));
     }
 
     private static void nextPermutation(int[] nums) {
-        int[] arrSign = new int[nums.length - 1];
-
-        for (int i = 0; i < nums.length - 1; i++) {
-            if (nums[i] >= nums[i + 1]) {
-                arrSign[i] = 0;
-            } else {
-                arrSign[i] = 1;
-            }
+        int i = nums.length - 2;
+        while (i >= 0 && nums[i + 1] <= nums[i]) {
+            i--;
         }
-        int j = arrSign.length - 1, index = arrSign[arrSign.length - 1];
-        while (index != 1 && j >= 0) {
-            index = arrSign[j];
+        if (i >= 0) {
+            int j = nums.length - 1;
+            while (j >= 0 && nums[j] <= nums[i]) {
+                j--;
+            }
+            swap(nums, i, j);
+        }
+        reverse(nums, i + 1);
+    }
+
+    private static void reverse(int[] nums, int start) {
+        int i = start, j = nums.length - 1;
+        while (i < j) {
+            swap(nums, i, j);
+            i++;
             j--;
         }
-        j = j < arrSign.length - 1 ? ++j : j;
-        if (index == 1) {
-            if (j != arrSign.length - 1 && nums[j] > nums[nums.length - 1]) {
-                int temp = nums[j];
-                for (int i = j; i < nums.length - 1; i++) {
-                    nums[j] = nums[i + 1];
-                    j++;
-                }
-                nums[nums.length - 1] = temp;
-            } else {
-                int temp = nums[j];
-                nums[j] = nums[j + 1];
-                nums[j + 1] = temp;
-            }
+    }
 
-        } else {
-            Arrays.sort(nums);
-        }
+    private static void swap(int[] nums, int i, int j){
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
     }
 }

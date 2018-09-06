@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class NextPermutation {
     public static void main(String[] args) {
-        int[] nums = {9, 7, 3, 8 ,4};
+        int[] nums = {1, 1, 5};
         nextPermutation(nums);
         System.out.println(Arrays.toString(nums));
     }
@@ -26,23 +26,17 @@ public class NextPermutation {
         }
         j = j < arrSign.length - 1 ? ++j : j;
         if (index == 1) {
-            if (j == arrSign.length - 1) {
+            if (j != arrSign.length - 1 && nums[j] > nums[nums.length - 1]) {
+                int temp = nums[j];
+                for (int i = j; i < nums.length - 1; i++) {
+                    nums[j] = nums[i + 1];
+                    j++;
+                }
+                nums[nums.length - 1] = temp;
+            } else {
                 int temp = nums[j];
                 nums[j] = nums[j + 1];
                 nums[j + 1] = temp;
-            } else {
-                if (nums[j] > nums[nums.length - 1]) {
-                    int temp = nums[j];
-                    for (int i = j; i < nums.length - 1; i++) {
-                        nums[j] = nums[i + 1];
-                        j++;
-                    }
-                    nums[nums.length - 1] = temp;
-                } else {
-                    int temp = nums[j];
-                    nums[j] = nums[j + 1];
-                    nums[j + 1] = temp;
-                }
             }
 
         } else {

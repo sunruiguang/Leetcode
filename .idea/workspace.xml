@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f36b781f-2d8d-414d-b3e5-610d0e93d873" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/srg/code/LongestValidParenthesesBruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/srg/code/LongestValidParenthesesBruteForce.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +34,7 @@
     <session id="-969585557">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="3" />
@@ -59,14 +58,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="java" value="7917" />
-          <entry key="txt" value="29" />
+          <entry key="java" value="8040" />
+          <entry key="txt" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7917" />
-          <entry key="PLAIN_TEXT" value="51" />
+          <entry key="JAVA" value="8040" />
+          <entry key="PLAIN_TEXT" value="99" />
         </counts>
       </usages-collector>
     </session>
@@ -76,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/srg/code/LongestValidParenthesesBruteForce.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+            <state relative-caret-position="-1100">
+              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -129,8 +128,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="766" />
-    <option name="y" value="60" />
+    <option name="x" value="523" />
+    <option name="y" value="161" />
     <option name="width" value="1173" />
     <option name="height" value="788" />
   </component>
@@ -179,7 +178,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536281517427" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536291868012" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
@@ -298,7 +297,7 @@
       <workItem from="1536211946527" duration="3755000" />
       <workItem from="1536222899880" duration="3300000" />
       <workItem from="1536228643386" duration="5129000" />
-      <workItem from="1536278122668" duration="2776000" />
+      <workItem from="1536278122668" duration="5502000" />
     </task>
     <task id="LOCAL-00001" summary="easy code">
       <created>1536145926585</created>
@@ -391,11 +390,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536278618345</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="stack and without extra space four approach">
+      <created>1536281675823</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1536281675823</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38896000" />
+    <option name="totallyTimeSpent" value="41622000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -407,10 +413,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="766" y="60" width="1173" height="788" extended-state="0" />
-    <editor active="true" />
+    <frame x="523" y="161" width="1173" height="788" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17826553" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25520363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -476,7 +481,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="easy code" />
     <MESSAGE value="dynamic programming" />
-    <option name="LAST_COMMIT_MESSAGE" value="dynamic programming" />
+    <MESSAGE value="stack and without extra space four approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack and without extra space four approach" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/srg/code/ValidParentheses.java">
@@ -586,8 +592,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/srg/code/LongestValidParenthesesBruteForce.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+        <state relative-caret-position="-1100">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f36b781f-2d8d-414d-b3e5-610d0e93d873" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/srg/code/SearchInsertPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,38 +35,39 @@
     <session id="-969585557">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="20" />
+          <entry key="java" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="20" />
+          <entry key="JAVA" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="java" value="8040" />
-          <entry key="txt" value="77" />
+          <entry key="java" value="8332" />
+          <entry key="txt" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8040" />
-          <entry key="PLAIN_TEXT" value="99" />
+          <entry key="JAVA" value="8332" />
+          <entry key="PLAIN_TEXT" value="109" />
         </counts>
       </usages-collector>
     </session>
@@ -73,10 +75,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/srg/code/LongestValidParenthesesBruteForce.java">
+        <entry file="file://$PROJECT_DIR$/src/com/srg/code/SearchInsertPosition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1100">
-              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            <state relative-caret-position="286">
+              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -118,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/com/srg/code/LongestValidParentheses.java" />
         <option value="$PROJECT_DIR$/src/com/srg/code/LongestValidParentheseDynamic.java" />
         <option value="$PROJECT_DIR$/src/com/srg/code/LongestValidParenthesesBruteForce.java" />
+        <option value="$PROJECT_DIR$/src/com/srg/code/SearchInsertPosition.java" />
       </list>
     </option>
   </component>
@@ -128,10 +131,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="523" />
-    <option name="y" value="161" />
+    <option name="x" value="160" />
+    <option name="y" value="127" />
     <option name="width" value="1173" />
-    <option name="height" value="788" />
+    <option name="height" value="756" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -142,8 +145,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,12 +174,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536291868012" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536538308068" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
@@ -195,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestValidParenthesesBruteForce">
+  <component name="RunManager" selected="Application.SearchInsertPosition">
     <configuration name="ImplementStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.srg.code.ImplementStr" />
       <module name="LeetCode" />
@@ -235,19 +238,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.srg.code.RemoveDuplicatesFromSortedArray" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.srg.code.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.srg.code.RemoveElement" />
       <module name="LeetCode" />
@@ -261,20 +251,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.srg.code.SearchInsertPosition" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.srg.code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
       <item itemvalue="Application.RemoveElement" />
       <item itemvalue="Application.ImplementStr" />
       <item itemvalue="Application.NextPermutation" />
       <item itemvalue="Application.LongestValidParenthesesBruteForce" />
+      <item itemvalue="Application.SearchInsertPosition" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchInsertPosition" />
         <item itemvalue="Application.LongestValidParenthesesBruteForce" />
         <item itemvalue="Application.NextPermutation" />
         <item itemvalue="Application.ImplementStr" />
         <item itemvalue="Application.RemoveElement" />
-        <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -298,6 +301,8 @@
       <workItem from="1536222899880" duration="3300000" />
       <workItem from="1536228643386" duration="5129000" />
       <workItem from="1536278122668" duration="5502000" />
+      <workItem from="1536292595865" duration="95000" />
+      <workItem from="1536535740481" duration="1347000" />
     </task>
     <task id="LOCAL-00001" summary="easy code">
       <created>1536145926585</created>
@@ -397,11 +402,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536281675823</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="check git">
+      <created>1536292628210</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1536292628210</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41622000" />
+    <option name="totallyTimeSpent" value="43064000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -413,9 +425,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="523" y="161" width="1173" height="788" extended-state="0" />
+    <frame x="160" y="127" width="1173" height="756" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25520363" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.37013575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -424,7 +437,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32928178" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4411303" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36198348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5934066" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -433,7 +446,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3282572" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.5023548" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32810047" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.20879121" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.20826447" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -482,7 +495,8 @@
     <MESSAGE value="easy code" />
     <MESSAGE value="dynamic programming" />
     <MESSAGE value="stack and without extra space four approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack and without extra space four approach" />
+    <MESSAGE value="check git" />
+    <option name="LAST_COMMIT_MESSAGE" value="check git" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/srg/code/ValidParentheses.java">
@@ -583,17 +597,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/srg/code/LongestValidParentheseDynamic.java">
+    <entry file="file://$PROJECT_DIR$/src/com/srg/code/LongestValidParentheseDynamic.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/srg/code/LongestValidParenthesesBruteForce.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="22">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/srg/code/LongestValidParenthesesBruteForce.java">
+    <entry file="file://$PROJECT_DIR$/src/com/srg/code/SearchInsertPosition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1100">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        <state relative-caret-position="286">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
         </state>
       </provider>
     </entry>

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f36b781f-2d8d-414d-b3e5-610d0e93d873" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/srg/code/CountAndSay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/srg/code/LongestSubStringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/srg/code/MedianOfTwoSortedArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -50,25 +49,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="26" />
+          <entry key="java" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="java" value="10649" />
-          <entry key="txt" value="97" />
+          <entry key="java" value="11453" />
+          <entry key="txt" value="109" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10649" />
-          <entry key="PLAIN_TEXT" value="119" />
+          <entry key="JAVA" value="11453" />
+          <entry key="PLAIN_TEXT" value="131" />
         </counts>
       </usages-collector>
     </session>
@@ -84,14 +83,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/srg/code/LongestSubStringWithoutRepeatingCharacters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="198">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/srg/code/MedianOfTwoSortedArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -146,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/com/srg/code/CleanJavaSolution.java" />
         <option value="$PROJECT_DIR$/src/com/srg/code/CountAndSay.java" />
         <option value="$PROJECT_DIR$/src/com/srg/code/LongestSubStringWithoutRepeatingCharacters.java" />
+        <option value="$PROJECT_DIR$/src/com/srg/code/MedianOfTwoSortedArrays.java" />
       </list>
     </option>
   </component>
@@ -156,8 +165,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="434" />
-    <option name="y" value="26" />
+    <option name="x" value="711" />
+    <option name="y" value="143" />
     <option name="width" value="1223" />
     <option name="height" value="736" />
   </component>
@@ -206,7 +215,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536571390151" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536577359791" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
@@ -228,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestSubStringWithoutRepeatingCharacters">
+  <component name="RunManager" selected="Application.MedianOfTwoSortedArrays">
     <configuration name="CountAndSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.srg.code.CountAndSay" />
       <module name="LeetCode" />
@@ -268,8 +277,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.srg.code.NextPermutation" />
+    <configuration name="MedianOfTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.srg.code.MedianOfTwoSortedArrays" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -295,19 +304,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NextPermutation" />
       <item itemvalue="Application.LongestValidParenthesesBruteForce" />
       <item itemvalue="Application.SearchInsertPosition" />
       <item itemvalue="Application.CountAndSay" />
       <item itemvalue="Application.LongestSubStringWithoutRepeatingCharacters" />
+      <item itemvalue="Application.MedianOfTwoSortedArrays" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MedianOfTwoSortedArrays" />
         <item itemvalue="Application.LongestSubStringWithoutRepeatingCharacters" />
         <item itemvalue="Application.CountAndSay" />
         <item itemvalue="Application.SearchInsertPosition" />
         <item itemvalue="Application.LongestValidParenthesesBruteForce" />
-        <item itemvalue="Application.NextPermutation" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +343,7 @@
       <workItem from="1536292595865" duration="95000" />
       <workItem from="1536535740481" duration="3857000" />
       <workItem from="1536545845487" duration="354000" />
-      <workItem from="1536546356807" duration="10567000" />
+      <workItem from="1536546356807" duration="14465000" />
     </task>
     <task id="LOCAL-00001" summary="easy code">
       <created>1536145926585</created>
@@ -448,11 +457,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536538430577</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Medium code">
+      <created>1536571446133</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1536571446133</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56495000" />
+    <option name="totallyTimeSpent" value="60393000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,10 +480,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="434" y="26" width="1223" height="736" extended-state="0" />
+    <frame x="711" y="143" width="1223" height="736" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.37828055" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.37748918" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -476,14 +492,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32928178" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3837838" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5934066" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.382906" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5931624" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32810047" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3282572" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.49917355" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.4991453" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32810047" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.20826447" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -535,7 +551,8 @@
     <MESSAGE value="stack and without extra space four approach" />
     <MESSAGE value="check git" />
     <MESSAGE value="easy code" />
-    <option name="LAST_COMMIT_MESSAGE" value="easy code" />
+    <MESSAGE value="Medium code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Medium code" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/srg/code/ValidParentheses.java">
@@ -665,11 +682,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/srg/code/LongestSubStringWithoutRepeatingCharacters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="198">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/srg/code/MedianOfTwoSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
         </state>
       </provider>
     </entry>

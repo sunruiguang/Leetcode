@@ -10,13 +10,13 @@ public class JewelsAndStones {
     }
 
     private static int numJewelsInStones(String J, String S) {
+        char[] c = new char[200];
         int count = 0;
-        TreeSet<Character> treeSet = new TreeSet<>();
-        for(int i = 0;i<J.length();i++){
-            treeSet.add(J.charAt(i));
+        for (char ch : J.toCharArray()) {
+            c[ch] = 1;
         }
-        for(int i = 0;i<S.length();i++){
-            if(treeSet.contains(S.charAt(i))) count++;
+        for (char ch : S.toCharArray()) {
+            if (c[ch] == 1) count++;
         }
         return count;
     }

@@ -1,7 +1,5 @@
 package com.srg.code;
 
-import java.util.TreeSet;
-
 public class JewelsAndStones {
 
     public static void main(String[] args) {

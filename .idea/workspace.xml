@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f36b781f-2d8d-414d-b3e5-610d0e93d873" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/srg/code/ToLowerCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/srg/code/UniqueMorseCodeWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/srg/code/JewelsAndStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/srg/code/JewelsAndStones.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,39 +36,39 @@
     <session id="-969585557">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="5" />
           <entry key="project.open.time.13" value="4" />
           <entry key="project.open.time.14" value="2" />
-          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="31" />
+          <entry key="java" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="java" value="13322" />
-          <entry key="txt" value="153" />
+          <entry key="java" value="13937" />
+          <entry key="txt" value="178" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13322" />
-          <entry key="PLAIN_TEXT" value="175" />
+          <entry key="JAVA" value="13937" />
+          <entry key="PLAIN_TEXT" value="200" />
         </counts>
       </usages-collector>
     </session>
@@ -80,21 +81,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/srg/code/LongestPalindromicSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="22" column="79" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="79" />
-              <folding>
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="513">
+              <caret line="29" column="70" lean-forward="true" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/srg/code/JewelsAndStones.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/srg/code/ToLowerCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/srg/code/JewelsAndStones.java">
+        <entry file="file://$PROJECT_DIR$/src/com/srg/code/UniqueMorseCodeWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="217">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -143,6 +158,9 @@
         <option value="$PROJECT_DIR$/src/com/srg/code/LongestSubStringWithoutRepeatingCharacters.java" />
         <option value="$PROJECT_DIR$/src/com/srg/code/LongestPalindromicSubstring.java" />
         <option value="$PROJECT_DIR$/src/com/srg/code/JewelsAndStones.java" />
+        <option value="$PROJECT_DIR$/src/com/srg/code/ToLowerCase.java" />
+        <option value="$PROJECT_DIR$/src/com/srg/code/BigCountries.java" />
+        <option value="$PROJECT_DIR$/src/com/srg/code/UniqueMorseCodeWords.java" />
       </list>
     </option>
   </component>
@@ -172,7 +190,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,15 +220,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536663639922" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536721228744" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
@@ -232,20 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JewelsAndStones">
-    <configuration name="CountAndSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.srg.code.CountAndSay" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.srg.code.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UniqueMorseCodeWords">
     <configuration name="JewelsAndStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.srg.code.JewelsAndStones" />
       <module name="LeetCode" />
@@ -285,8 +290,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedianOfTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.srg.code.MedianOfTwoSortedArrays" />
+    <configuration name="ToLowerCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.srg.code.ToLowerCase" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.srg.code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniqueMorseCodeWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.srg.code.UniqueMorseCodeWords" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -299,19 +317,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CountAndSay" />
       <item itemvalue="Application.LongestSubStringWithoutRepeatingCharacters" />
-      <item itemvalue="Application.MedianOfTwoSortedArrays" />
       <item itemvalue="Application.LongestPalindromicSubstring" />
       <item itemvalue="Application.JewelsAndStones" />
+      <item itemvalue="Application.ToLowerCase" />
+      <item itemvalue="Application.UniqueMorseCodeWords" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniqueMorseCodeWords" />
+        <item itemvalue="Application.ToLowerCase" />
         <item itemvalue="Application.JewelsAndStones" />
         <item itemvalue="Application.LongestPalindromicSubstring" />
         <item itemvalue="Application.LongestSubStringWithoutRepeatingCharacters" />
-        <item itemvalue="Application.MedianOfTwoSortedArrays" />
-        <item itemvalue="Application.CountAndSay" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +359,9 @@
       <workItem from="1536546356807" duration="15249000" />
       <workItem from="1536583802121" duration="452000" />
       <workItem from="1536623711750" duration="10738000" />
-      <workItem from="1536652739666" duration="8008000" />
+      <workItem from="1536652739666" duration="9289000" />
+      <workItem from="1536712700834" duration="261000" />
+      <workItem from="1536719993526" duration="1226000" />
     </task>
     <task id="LOCAL-00001" summary="easy code">
       <created>1536145926585</created>
@@ -497,11 +517,25 @@
       <option name="project" value="LOCAL" />
       <updated>1536663370683</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="dp resolve problem">
+      <created>1536663660788</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1536663660788</updated>
+    </task>
+    <task id="LOCAL-00024" summary="dp resolve problem">
+      <created>1536663673307</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1536663673307</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80375000" />
+    <option name="totallyTimeSpent" value="83143000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -516,7 +550,7 @@
     <frame x="674" y="90" width="1223" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.32987013" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33679652" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24935065" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -525,13 +559,13 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32987013" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32928178" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37982196" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37982196" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.59198815" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3275862" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5004329" side_tool="true" weight="0.23156089" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5004329" side_tool="true" weight="0.231454" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3275862" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4995671" weight="0.20517242" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3275862" />
@@ -587,7 +621,8 @@
     <MESSAGE value="Hard code" />
     <MESSAGE value="Medium code" />
     <MESSAGE value="O(1) resolve problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="O(1) resolve problem" />
+    <MESSAGE value="dp resolve problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="dp resolve problem" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/srg/code/ValidParentheses.java">
@@ -719,21 +754,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/srg/code/LongestPalindromicSubstring.java">
+    <entry file="file://$PROJECT_DIR$/src/com/srg/code/BigCountries.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/srg/code/JewelsAndStones.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="22" column="79" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="79" />
-          <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/srg/code/JewelsAndStones.java">
+    <entry file="file://$PROJECT_DIR$/src/com/srg/code/ToLowerCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="190">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/srg/code/LongestPalindromicSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="29" column="70" lean-forward="true" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/srg/code/UniqueMorseCodeWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>

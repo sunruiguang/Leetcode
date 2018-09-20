@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f36b781f-2d8d-414d-b3e5-610d0e93d873" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/srg/code/FlippingAnImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/srg/code/MergeTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/srg/pubclass/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,39 +36,41 @@
     <session id="-969585557">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="26" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="6" />
           <entry key="project.open.time.13" value="4" />
           <entry key="project.open.time.14" value="2" />
-          <entry key="project.open.time.15" value="3" />
+          <entry key="project.open.time.15" value="4" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="41" />
+          <entry key="gitignore" value="1" />
+          <entry key="java" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="41" />
+          <entry key="JAVA" value="45" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="java" value="17155" />
+          <entry key="java" value="17879" />
           <entry key="txt" value="189" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="17155" />
+          <entry key="JAVA" value="17879" />
           <entry key="PLAIN_TEXT" value="211" />
         </counts>
       </usages-collector>
@@ -78,20 +81,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/srg/code/FlippingAnImage.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/srg/pubclass/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/srg/code/NextPermutation.java">
+        <entry file="file://$PROJECT_DIR$/src/com/srg/pubclass/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-212">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="114">
+              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding>
+                <element signature="e#148#149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/srg/code/MergeTrees.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="893">
+              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,6 +169,8 @@
         <option value="$PROJECT_DIR$/src/com/srg/code/HammingDistance.java" />
         <option value="$PROJECT_DIR$/src/com/srg/code/RobotReturnToOrigin.java" />
         <option value="$PROJECT_DIR$/src/com/srg/code/FlippingAnImage.java" />
+        <option value="$PROJECT_DIR$/src/com/srg/pubclass/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/com/srg/code/MergeTrees.java" />
       </list>
     </option>
   </component>
@@ -163,10 +187,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="646" />
-    <option name="y" value="226" />
-    <option name="width" value="1223" />
-    <option name="height" value="827" />
+    <option name="x" value="605" />
+    <option name="y" value="279" />
+    <option name="width" value="1225" />
+    <option name="height" value="818" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -176,9 +200,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,6 +228,13 @@
               <item name="srg" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="srg" type="462c0819:PsiDirectoryNode" />
+              <item name="pubclass" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -214,7 +245,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536754733262" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537443772258" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
@@ -236,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FlippingAnImage">
+  <component name="RunManager" selected="Application.MergeTrees">
     <configuration name="FlippingAnImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.srg.code.FlippingAnImage" />
       <module name="LeetCode" />
@@ -263,8 +294,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RobotReturnToOrigin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.srg.code.RobotReturnToOrigin" />
+    <configuration name="MergeTrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.srg.code.MergeTrees" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -276,8 +307,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToLowerCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.srg.code.ToLowerCase" />
+    <configuration name="RobotReturnToOrigin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.srg.code.RobotReturnToOrigin" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -303,19 +334,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ToLowerCase" />
       <item itemvalue="Application.UniqueMorseCodeWords" />
       <item itemvalue="Application.HammingDistance" />
       <item itemvalue="Application.RobotReturnToOrigin" />
       <item itemvalue="Application.FlippingAnImage" />
+      <item itemvalue="Application.MergeTrees" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeTrees" />
         <item itemvalue="Application.FlippingAnImage" />
         <item itemvalue="Application.RobotReturnToOrigin" />
         <item itemvalue="Application.HammingDistance" />
         <item itemvalue="Application.UniqueMorseCodeWords" />
-        <item itemvalue="Application.ToLowerCase" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +380,13 @@
       <workItem from="1536712700834" duration="261000" />
       <workItem from="1536719993526" duration="11468000" />
       <workItem from="1536749392311" duration="6000" />
-      <workItem from="1536752842064" duration="2153000" />
+      <workItem from="1536752842064" duration="3078000" />
+      <workItem from="1536798092459" duration="728000" />
+      <workItem from="1536801970187" duration="789000" />
+      <workItem from="1537340794439" duration="25000" />
+      <workItem from="1537408881695" duration="742000" />
+      <workItem from="1537411406719" duration="633000" />
+      <workItem from="1537442467132" duration="1302000" />
     </task>
     <task id="LOCAL-00001" summary="easy code">
       <created>1536145926585</created>
@@ -540,11 +577,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536747548343</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="easy code">
+      <created>1536755026665</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1536755026665</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95544000" />
+    <option name="totallyTimeSpent" value="100688000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,10 +600,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="646" y="226" width="1223" height="827" extended-state="0" />
+    <frame x="605" y="279" width="1225" height="818" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3082251" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.32152116" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24935065" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -568,7 +612,7 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32987013" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32928178" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37982196" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27906978" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.59198815" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -634,13 +678,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="easy code" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/srg/pubclass/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/srg/code/ReverseInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -806,6 +843,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/srg/code/FlippingAnImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/srg/code/NextPermutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-212">
@@ -813,10 +860,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/srg/code/FlippingAnImage.java">
+    <entry file="file://$PROJECT_DIR$/src/com/srg/pubclass/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+        <state relative-caret-position="114">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/srg/pubclass/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/srg/code/MergeTrees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
